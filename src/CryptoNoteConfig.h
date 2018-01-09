@@ -109,9 +109,9 @@ const uint64_t MAX_BLOCK_REWARD                              = (UINT64_C(2) * pa
 const uint64_t REWARD_INCREASE_INTERVAL                      = (UINT64_C(2640));
 
 const char     CRYPTONOTE_NAME[]                             = "Eightcoin";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001904e029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101ee34c01f17c006a3e4d9b9528b532739f17bec20dc861eaa0761fb3fde183991";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001904e029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121014b80de5de342e3c2b41474da94ac34b45b43cdbcb4ba1b8defb785f874f34a13";
 const uint32_t GENESIS_NONCE                                 = 70;
-const uint64_t GENESIS_TIMESTAMP                             = 1515459441;
+const uint64_t GENESIS_TIMESTAMP                             = 1515479625;
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
