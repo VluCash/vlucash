@@ -29,14 +29,14 @@ const uint64_t CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE           = 100;
 const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 30;
 
 // MONEY_SUPPLY - total number coins to be generated
-const uint64_t MONEY_SUPPLY                                  = UINT64_C(1000000);
+const uint64_t MONEY_SUPPLY                                  = (uint64_t)(-1);
 const uint32_t MANDATORY_TRANSACTION                         = 0;
 const uint32_t KILL_HEIGHT                                   = 0;
 const uint64_t TAIL_EMISSION_REWARD                          = 0;
 const size_t CRYPTONOTE_COIN_VERSION                         = 0;
 const bool ZAWY_DIFFICULTY_V2                          	     = 0;
 const unsigned EMISSION_SPEED_FACTOR                         = 18;
-const uint64_t GENESIS_BLOCK_REWARD                          = 10000;
+const uint64_t GENESIS_BLOCK_REWARD                          = 5;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
 const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 0.1;
