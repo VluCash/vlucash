@@ -108,10 +108,10 @@ const uint64_t ICO_BLOCK_REWARD	                             = (UINT64_C(5020146
 const uint64_t MAX_BLOCK_REWARD                              = (UINT64_C(2) * parameters::COIN);
 const uint64_t REWARD_INCREASE_INTERVAL                      = (UINT64_C(2640));
 
-const char     CRYPTONOTE_NAME[]                             = "Wayang";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001904e029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121018b64cdddcc1eecbed35ab64855279f5635ebb681f1812f51af2ed083bc4b457e";
+const char     CRYPTONOTE_NAME[]                             = "Eightcoin";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 const uint32_t GENESIS_NONCE                                 = 70;
-const uint64_t GENESIS_TIMESTAMP                             = 1513040990;
+const uint64_t GENESIS_TIMESTAMP                             = 1515459441;
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
@@ -140,12 +140,11 @@ const uint32_t P2P_DEFAULT_CONNECTION_TIMEOUT                = 5000;          //
 const uint32_t P2P_DEFAULT_PING_CONNECTION_TIMEOUT           = 2000;          // 2 seconds
 const uint64_t P2P_DEFAULT_INVOKE_TIMEOUT                    = 60 * 2 * 1000; // 2 minutes
 const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          // 5 seconds
-const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "0000000000000000000000000000000000000000000000000000000000000000";
+const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "1234567000000000000000000000000000000000000000000000000000000000";
 
 const std::initializer_list<const char*> SEED_NODES = {
-   "180.214.232.89:8057",
-   "23.89.193.220:80",
-   "18.217.154.125:80"
+   //"11.11.11.11:8057",
+   //"22.22.22.22:8057"
 };
 
 struct CheckpointData {
